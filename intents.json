@@ -1,0 +1,165 @@
+{
+    "intents": [
+        { "tag": "greeting", "patterns": ["Hi", "Hello", "Hey", "Good morning", "Howdy"], "responses": ["Hello! Welcome to our dealership. I'm Zephyr how can I assist you today?"] },
+        { "tag": "goodbye", "patterns": ["Bye", "Goodbye", "See you later", "Take care"], "responses": ["Goodbye! Let us know if you need anything else."] },
+        { "tag": "thank_you", "patterns": ["Thanks", "Thank you", "I appreciate it"], "responses": ["You're welcome! Happy to help."] },
+        
+        { "tag": "available_cars", "patterns": ["What cars do you have?", "What models are available?", "Do you have SUVs?"], "responses": ["We have a variety of cars, including sedans, SUVs, trucks, and more. What are you looking for?"] },
+        { "tag": "car_prices", "patterns": ["How much does a car cost?", "What are the prices?", "Price of the latest model?"], "responses": ["Prices vary by model and features. Do you have a specific car in mind?"] },
+        { "tag": "test_drive", "patterns": ["Can I test drive a car?", "How do I schedule a test drive?"], "responses": ["Yes! You can schedule a test drive by visiting our website or calling us."] },
+    
+        { "tag": "financing_options", "patterns": ["Do you offer financing?", "Car loan options?", "How can I finance a car?"], "responses": ["Yes! We offer multiple financing options. Let us know your budget, and we can help."] },
+        { "tag": "down_payment", "patterns": ["How much is the down payment?", "Do I need a down payment?"], "responses": ["Down payment depends on the car and financing terms. Typically, it’s around 10-20%."] },
+        { "tag": "credit_score", "patterns": ["What credit score do I need?", "Can I get a loan with bad credit?"], "responses": ["We work with all credit scores! Our finance team can help find the best options."] },
+        { "tag": "loan_duration", "patterns": ["How long are car loans?", "What is the loan period?"], "responses": ["Loan terms vary, typically between 24 to 72 months."] },
+        
+        { "tag": "trade_in", "patterns": ["Do you accept trade-ins?", "Can I trade in my old car?"], "responses": ["Yes! We accept trade-ins. Bring your car in for a free evaluation."] },
+        { "tag": "trade_in_value", "patterns": ["How much is my car worth?", "Can you estimate my trade-in value?"], "responses": ["Trade-in values depend on the car’s condition and market demand. We can provide an estimate in person."] },
+        { "tag": "sell_car", "patterns": ["Can I sell my car?", "Do you buy used cars?"], "responses": ["Yes! We buy used cars. Bring your car in for an appraisal."] },
+        
+        { "tag": "warranty", "patterns": ["Do you offer warranties?", "What warranty comes with the car?"], "responses": ["Yes! Most cars come with a manufacturer’s warranty, and we also offer extended warranties."] },
+        { "tag": "extended_warranty", "patterns": ["Can I buy an extended warranty?", "What does the extended warranty cover?"], "responses": ["Yes! Extended warranties cover repairs beyond the manufacturer’s warranty."] },
+        
+        { "tag": "service_department", "patterns": ["Do you have a service center?", "Can I get my car serviced here?"], "responses": ["Yes! We have a full-service department for repairs, maintenance, and inspections."] },
+        { "tag": "oil_change", "patterns": ["Do you do oil changes?", "How much is an oil change?"], "responses": ["Yes! We offer oil changes. Prices vary by car type."] },
+        { "tag": "tire_replacement", "patterns": ["Do you replace tires?", "Can I get new tires here?"], "responses": ["Yes! We offer tire replacement and balancing."] },
+    
+        { "tag": "electric_cars", "patterns": ["Do you sell electric cars?", "What EVs do you have?"], "responses": ["Yes! We have a variety of electric and hybrid cars available."] },
+        { "tag": "car_mpg", "patterns": ["What is the fuel efficiency?", "How many miles per gallon?"], "responses": ["Fuel efficiency varies by model. Let us know which car you're interested in!"] },
+        
+        { "tag": "location", "patterns": ["Where are you located?", "What is your address?"], "responses": ["We are located at [Your Dealership Address]."] },
+        { "tag": "working_hours", "patterns": ["What are your hours?", "When are you open?"], "responses": ["We are open Monday-Saturday, 9 AM to 7 PM."] },
+        
+        { "tag": "insurance_help", "patterns": ["Do you offer car insurance?", "Can I get insurance here?"], "responses": ["We don’t provide insurance directly, but we can recommend providers."] },
+        { "tag": "roadside_assistance", "patterns": ["Do you offer roadside assistance?", "What happens if my car breaks down?"], "responses": ["Yes! Some cars come with free roadside assistance, and we offer service plans."] },
+        
+        { "tag": "lease_vs_buy", "patterns": ["Should I lease or buy?", "What’s better, leasing or buying?"], "responses": ["It depends! Leasing has lower payments, but buying builds equity. We can help you decide."] },
+        { "tag": "lease_terms", "patterns": ["What are the lease terms?", "How long is a lease?"], "responses": ["Lease terms vary but are usually 24-48 months."] },
+    
+        { "tag": "car_colors", "patterns": ["What colors are available?", "Do you have red cars?"], "responses": ["We have a variety of colors available. Let us know your preference!"] },
+        { "tag": "car_features", "patterns": ["Does this car have Bluetooth?", "What features does it have?"], "responses": ["Yes! Many of our cars come with Bluetooth, navigation, and other features."] },
+        
+        { "tag": "car_brands", "patterns": ["What brands do you sell?", "Do you have Toyota cars?"], "responses": ["We sell Toyota, Ford, Honda, BMW, and more!"] },
+        { "tag": "latest_models", "patterns": ["What’s the newest model?", "Do you have the 2024 models?"], "responses": ["Yes! We have the latest 2024 models available."] },
+    
+        { "tag": "contact_info", "patterns": ["How can I contact you?", "What’s your phone number?"], "responses": ["You can call us at [Your Phone Number] or visit our website."] },
+        
+        { "tag": "appointment", "patterns": ["Can I book an appointment?", "How do I schedule a visit?"], "responses": ["Yes! You can book an appointment online or call us."] },
+        
+        { "tag": "special_offers", "patterns": ["Do you have any discounts?", "Are there any promotions?"], "responses": ["Yes! Check our website for the latest deals."] },
+        
+        { "tag": "car_safety", "patterns": ["Is this car safe?", "What safety features does it have?"], "responses": ["Our cars have advanced safety features like airbags, lane assist, and more."] },
+    
+        { "tag": "custom_order", "patterns": ["Can I custom order a car?", "Do you offer special orders?"], "responses": ["Yes! We can help you customize and order a car."] },
+        {
+            "tag": "toyota_models",
+            "patterns": ["What Toyota models do you have?", "List Toyota cars", "Do you sell Toyota?"],
+            "responses": ["We have Toyota Corolla, Camry, RAV4, Highlander, and more!"]
+          },
+          {
+            "tag": "ford_models",
+            "patterns": ["Show me Ford cars", "Ford models available?", "What Ford vehicles do you sell?"],
+            "responses": ["We have Ford F-150, Mustang, Escape, Explorer, and more!"]
+          },
+          {
+            "tag": "bmw_models",
+            "patterns": ["Do you have BMW cars?", "What BMW models are available?", "Show me BMW vehicles"],
+            "responses": ["Yes! We have BMW 3 Series, X5, X7, and more."]
+          },
+          {
+            "tag": "tesla_models",
+            "patterns": ["Do you sell Tesla?", "List Tesla cars", "What Tesla models are in stock?"],
+            "responses": ["We have Tesla Model 3, Model S, Model X, and Model Y."]
+          },
+          {
+            "tag": "honda_models",
+            "patterns": ["What Honda models do you have?", "Show me Honda cars", "Available Honda vehicles?"],
+            "responses": ["We have Honda Civic, Accord, CR-V, Pilot, and more."]
+          },
+          {
+            "tag": "suv_vehicles",
+            "patterns": ["Show me SUVs", "Do you have SUVs?", "What SUVs do you sell?"],
+            "responses": ["We have SUVs from Toyota, Ford, BMW, Tesla, and many more!"]
+          },
+          {
+            "tag": "sedan_vehicles",
+            "patterns": ["List sedans", "Available sedan cars?", "Do you sell sedans?"],
+            "responses": ["Yes! We have sedans like Toyota Camry, Honda Accord, BMW 3 Series, and more."]
+          },
+          {
+            "tag": "truck_vehicles",
+            "patterns": ["Do you have pickup trucks?", "Show me truck models", "Available trucks?"],
+            "responses": ["Yes! We have Ford F-150, Toyota Tundra, Chevrolet Silverado, and more."]
+          },
+          {
+            "tag": "electric_vehicles",
+            "patterns": ["Show me electric cars", "What EVs do you sell?", "List electric vehicles"],
+            "responses": ["We have Tesla Model 3, Nissan Leaf, Ford Mustang Mach-E, and more."]
+          },
+          {
+            "tag": "financing_options",
+            "patterns": ["What are your financing options?", "Do you offer car loans?", "Can I finance a car?"],
+            "responses": ["Yes! We offer financing plans with low interest rates. Would you like to apply?"]
+          },
+          {
+            "tag": "trade_in",
+            "patterns": ["Can I trade in my car?", "How does trade-in work?", "Do you accept trade-ins?"],
+            "responses": ["Yes! You can trade in your old car for a new one. Bring it in for a free appraisal."]
+          },
+          {
+            "tag": "test_drive_schedule",
+            "patterns": ["Can I schedule a test drive?", "How do I test drive a car?", "Do you offer test drives?"],
+            "responses": ["Yes! You can schedule a test drive at our dealership. What model are you interested in?"]
+          },
+          {
+            "tag": "car_availability",
+            "patterns": ["Is this car available?", "Do you have this model in stock?", "Can I check availability?"],
+            "responses": ["We can check availability for you. Which model are you looking for?"]
+          },
+          {
+            "tag": "car_pricing",
+            "patterns": ["How much does this car cost?", "What is the price of a Ford F-150?", "Give me a price for BMW X5"],
+            "responses": ["Prices vary by model and trim. Do you want a quote for a specific model?"]
+          },
+          {
+            "tag": "fuel_efficiency",
+            "patterns": ["What is the fuel efficiency of this car?", "How many MPG does it get?", "Tell me the mileage"],
+            "responses": ["Fuel efficiency depends on the model. Do you want details for a specific car?"]
+          },
+          {
+            "tag": "engine_specs",
+            "patterns": ["What is the engine size?", "Tell me about the engine", "What horsepower does it have?"],
+            "responses": ["Engine specs vary by model. Let me know which car you're interested in!"]
+          },
+          {
+            "tag": "insurance",
+            "patterns": ["Do you offer insurance?", "Can I buy insurance here?", "How does car insurance work?"],
+            "responses": ["Yes! We can help you get car insurance with affordable plans."]
+          },
+          {
+            "tag": "hybrid_cars",
+            "patterns": ["Do you sell hybrid cars?", "List hybrid vehicles", "What hybrids do you have?"],
+            "responses": ["Yes! We have Toyota Prius, Honda Insight, Ford Escape Hybrid, and more."]
+          },
+          {
+            "tag": "luxury_cars",
+            "patterns": ["Do you sell luxury cars?", "What luxury vehicles do you have?", "Show me luxury models"],
+            "responses": ["Yes! We have BMW, Mercedes-Benz, Audi, and other premium brands."]
+          },
+          {
+            "tag": "offroad_vehicles",
+            "patterns": ["Do you have off-road cars?", "Show me off-road vehicles", "List off-road capable cars"],
+            "responses": ["Yes! We have Jeep Wrangler, Ford Bronco, Toyota Land Cruiser, and more."]
+          },
+          {
+            "tag": "buy_now",
+            "patterns": ["Can I buy this car now?", "How do I purchase?", "I want to buy a car today"],
+            "responses": ["Of course! We can start the process. Which car are you interested in?"]
+          },
+          {
+            "tag": "delivery",
+            "patterns": ["Do you offer home delivery?", "Can I get my car delivered?", "How does delivery work?"],
+            "responses": ["Yes! We offer home delivery for certain locations. Would you like to check?"]
+          }
+    ]
+}
